@@ -21,11 +21,13 @@ if 'is_scraping' not in st.session_state:
     st.session_state.is_scraping = False
 if 'scraping_error' not in st.session_state:
     st.session_state.scraping_error = None
+if 'show_applications' not in st.session_state:
+    st.session_state.show_applications = False
 
 # Cache the job results
 @st.cache_data(ttl=3600)  # Cache for 1 hour
-def get_cached_jobs():
-    return db.get_jobs()
+def get_cached_jobs(include_applications=False):
+    return db.get_jobs(include_applications)
 
 def extract_experience_level(description):
     """Extract experience level from job description"""
@@ -84,11 +86,32 @@ def refresh_data():
         st.session_state.is_scraping = False
         get_cached_jobs.clear()  # Clear the cache to get fresh data
 
+def show_application_statistics():
+    """Display application statistics"""
+    stats = db.get_application_statistics()
+    
+    st.sidebar.title("Application Statistics")
+    total = sum(stats.values())
+    
+    if total > 0:
+        st.sidebar.write(f"Total Applications: {total}")
+        for status, count in stats.items():
+            percentage = (count / total) * 100
+            st.sidebar.write(f"{status}: {count} ({percentage:.1f}%)")
+    else:
+        st.sidebar.write("No applications yet")
+
 def main():
     st.title("🤖 Robotics Job Aggregator")
     
     # Sidebar
     st.sidebar.title("Controls")
+    
+    # Application tracking toggle
+    st.session_state.show_applications = st.sidebar.checkbox("Show My Applications", value=st.session_state.show_applications)
+    
+    if st.session_state.show_applications:
+        show_application_statistics()
     
     # Refresh button and cancel button
     col1, col2 = st.sidebar.columns(2)
@@ -155,7 +178,7 @@ def main():
 
     # Get and display jobs
     try:
-        jobs_df = get_cached_jobs()
+        jobs_df = get_cached_jobs(include_applications=st.session_state.show_applications)
         
         # Apply filters
         if selected_companies:
@@ -230,6 +253,43 @@ def main():
                 st.write(f"**Description:**\n{job['description']}")
                 if job['url']:
                     st.markdown(f"[Apply Here]({job['url']})")
+                
+                # Application tracking section
+                if st.session_state.show_applications:
+                    st.write("---")
+                    st.write("**Application Tracking**")
+                    
+                    # Show existing application or add new one
+                    if pd.notna(job.get('application_id')):
+                        status = st.selectbox("Status", 
+                            ['Applied', 'Interview', 'Offer', 'Rejected', 'Withdrawn'],
+                            key=f"status_{job['id']}",
+                            index=['Applied', 'Interview', 'Offer', 'Rejected', 'Withdrawn'].index(job['status'])
+                        )
+                        notes = st.text_area("Notes", 
+                            value=job.get('notes', ''),
+                            key=f"notes_{job['id']}"
+                        )
+                        follow_up = st.date_input("Follow-up Date",
+                            value=job.get('follow_up_date'),
+                            key=f"follow_up_{job['id']}"
+                        )
+                        
+                        if st.button("Update Application", key=f"update_{job['id']}"):
+                            db.update_job_application(
+                                job['application_id'],
+                                status=status,
+                                notes=notes,
+                                follow_up_date=follow_up
+                            )
+                            st.success("Application updated!")
+                            st.experimental_rerun()
+                    else:
+                        if st.button("Track Application", key=f"track_{job['id']}"):
+                            db.add_job_application(job['id'])
+                            st.success("Application added to tracking!")
+                            st.experimental_rerun()
+
     except Exception as e:
         st.error(f"Error loading jobs: {str(e)}")
 
