@@ -115,3 +115,188 @@
 2024-11-20 04:08:08,849 - INFO - Starting scraping from scrape_boston_dynamics
 2024-11-20 04:08:09,246 - INFO - Successfully scraped 0 jobs from source
 2024-11-20 04:08:13,309 - INFO - Starting scraping from scrape_linkedin_robotics
+2024-11-20 04:08:46,279 - ERROR - download error: https://www.linkedin.com/jobs/view/robotics-engineer-all-levels-at-chef-robotics-3829633461?position=1&pageNum=0&refId=KKSfSyCQvGF%2FC9MyOsEygg%3D%3D&trackingId=8d5nVgM9qfeNmn2CuhMwMQ%3D%3D HTTPSConnectionPool(host='www.linkedin.com', port=443): Max retries exceeded with url: /jobs/view/robotics-engineer-all-levels-at-chef-robotics-3829633461?position=1&pageNum=0&refId=KKSfSyCQvGF%2FC9MyOsEygg%3D%3D&trackingId=8d5nVgM9qfeNmn2CuhMwMQ%3D%3D (Caused by ResponseError('too many 429 error responses'))
+2024-11-20 04:08:46,280 - INFO - Successfully scraped job: Robotics Engineer (all levels)
+2024-11-20 04:09:16,548 - ERROR - download error: https://www.linkedin.com/jobs/view/roboticist-at-technacity-group-4037941810?position=2&pageNum=0&refId=KKSfSyCQvGF%2FC9MyOsEygg%3D%3D&trackingId=AcLAYZU4yutVE%2B0EkHWgyw%3D%3D HTTPSConnectionPool(host='www.linkedin.com', port=443): Max retries exceeded with url: /jobs/view/roboticist-at-technacity-group-4037941810?position=2&pageNum=0&refId=KKSfSyCQvGF%2FC9MyOsEygg%3D%3D&trackingId=AcLAYZU4yutVE%2B0EkHWgyw%3D%3D (Caused by ResponseError('too many 429 error responses'))
+2024-11-20 04:09:16,549 - INFO - Successfully scraped job: Roboticist
+2024-11-20 04:09:17,248 - INFO - Successfully scraped job: Robotics Engineer Intern
+2024-11-20 04:09:47,507 - ERROR - download error: https://www.linkedin.com/jobs/view/robotics-engineer-at-aisin-north-carolina-corporation-4079837491?position=4&pageNum=0&refId=KKSfSyCQvGF%2FC9MyOsEygg%3D%3D&trackingId=GvjGhw%2Fkmgr6qkRfsXc5uA%3D%3D HTTPSConnectionPool(host='www.linkedin.com', port=443): Max retries exceeded with url: /jobs/view/robotics-engineer-at-aisin-north-carolina-corporation-4079837491?position=4&pageNum=0&refId=KKSfSyCQvGF%2FC9MyOsEygg%3D%3D&trackingId=GvjGhw%2Fkmgr6qkRfsXc5uA%3D%3D (Caused by ResponseError('too many 429 error responses'))
+2024-11-20 04:09:47,508 - INFO - Successfully scraped job: Robotics Engineer
+2024-11-20 04:09:48,074 - INFO - Successfully scraped job: Machine Learning Engineer, Robot Learning
+2024-11-20 04:09:48,915 - INFO - Successfully scraped job: Mechanical Engineer: Underwater Robotics
+2024-11-20 04:09:49,511 - INFO - Successfully scraped job: Robotics Engineer
+2024-11-20 04:09:50,585 - INFO - Starting scraping from scrape_boston_dynamics
+2024-11-20 04:09:50,870 - INFO - Successfully scraped 0 jobs from source
+2024-11-20 04:09:55,789 - INFO - Starting scraping from scrape_linkedin_robotics
+2024-11-20 04:10:08,944 - ERROR - Error fetching https://www.linkedin.com/jobs/search?keywords=robotics&location=United%20States: HTTPSConnectionPool(host='www.linkedin.com', port=443): Max retries exceeded with url: /jobs/search?keywords=robotics&location=United%20States (Caused by ResponseError('too many 429 error responses'))
+2024-11-20 04:10:08,945 - INFO - Successfully scraped 0 jobs from source
+2024-11-20 04:10:12,867 - INFO - Starting scraping from <lambda>
+2024-11-20 04:10:14,691 - INFO - Successfully scraped Agility Robotics job: Buyer II
+2024-11-20 04:10:14,733 - INFO - Successfully scraped Agility Robotics job: Director of Systems Engineering, Integration and Test
+2024-11-20 04:10:14,776 - INFO - Successfully scraped Agility Robotics job: Robotics Software Engineer, Triage
+2024-11-20 04:10:14,816 - INFO - Successfully scraped Agility Robotics job: Senior Deployment Specialist 
+2024-11-20 04:10:14,858 - INFO - Successfully scraped Agility Robotics job: Senior QA Test Engineer, Robotics
+2024-11-20 04:10:14,903 - INFO - Successfully scraped Agility Robotics job: Senior Quality Control Inspector 
+2024-11-20 04:10:14,946 - INFO - Successfully scraped Agility Robotics job: Senior Software Engineer, Back-End
+2024-11-20 04:10:14,991 - INFO - Successfully scraped Agility Robotics job: Senior Staff AI Engineer
+2024-11-20 04:10:15,035 - INFO - Successfully scraped Agility Robotics job: Senior Staff Hardware Test Engineering Architect
+2024-11-20 04:10:15,080 - INFO - Successfully scraped Agility Robotics job: Senior Staff Mechanical Engineer
+2024-11-20 04:10:15,124 - INFO - Successfully scraped Agility Robotics job: Senior Staff Perception Engineer
+2024-11-20 04:10:15,176 - INFO - Successfully scraped Agility Robotics job: Senior Staff Product Compliance Engineer
+2024-11-20 04:10:15,223 - INFO - Successfully scraped Agility Robotics job: Senior Staff Test and Integration Engineer
+2024-11-20 04:10:15,275 - INFO - Successfully scraped Agility Robotics job: Staff Electrical Engineer
+2024-11-20 04:10:15,326 - INFO - Successfully scraped Agility Robotics job: Staff Full Stack Engineer, Front-End Applications
+2024-11-20 04:10:15,376 - INFO - Successfully scraped Agility Robotics job: Staff Manufacturing Engineer, Electrical
+2024-11-20 04:10:15,427 - INFO - Successfully scraped Agility Robotics job: Staff Product Manager
+2024-11-20 04:10:15,480 - INFO - Successfully scraped Agility Robotics job: Staff Robotics Software Engineer - Manipulation
+2024-11-20 04:10:15,523 - INFO - Successfully scraped Agility Robotics job: Staff Software Release Engineer
+2024-11-20 04:10:15,573 - INFO - Successfully scraped Agility Robotics job: Vice President of Software, Applications and Platform
+2024-11-20 04:10:15,575 - INFO - Successfully scraped 20 jobs from source
+2024-11-20 04:10:19,754 - ERROR - download error: https://www.linkedin.com/jobs/view/join-team-miso-at-miso-robotics-4056654765?position=8&pageNum=0&refId=KKSfSyCQvGF%2FC9MyOsEygg%3D%3D&trackingId=kXcKWqXNoEic12HiZB1cSA%3D%3D HTTPSConnectionPool(host='www.linkedin.com', port=443): Max retries exceeded with url: /jobs/view/join-team-miso-at-miso-robotics-4056654765?position=8&pageNum=0&refId=KKSfSyCQvGF%2FC9MyOsEygg%3D%3D&trackingId=kXcKWqXNoEic12HiZB1cSA%3D%3D (Caused by ResponseError('too many 429 error responses'))
+2024-11-20 04:10:19,755 - INFO - Successfully scraped job: Join Team Miso
+2024-11-20 04:10:19,960 - INFO - Starting scraping from <lambda>
+2024-11-20 04:10:21,141 - INFO - Successfully scraped ANYbotics job: Head of Supply Chain
+2024-11-20 04:10:21,651 - INFO - Successfully scraped ANYbotics job: Senior AI Engineer - Locomotion
+2024-11-20 04:10:21,829 - INFO - Successfully scraped ANYbotics job: Senior Marketing Campaign Manager
+2024-11-20 04:10:21,953 - INFO - Successfully scraped ANYbotics job: Senior Sales Manager / Autonomous Robotics
+2024-11-20 04:10:22,107 - INFO - Successfully scraped ANYbotics job: Senior Software Development Engineer in Test
+2024-11-20 04:10:22,239 - INFO - Successfully scraped ANYbotics job: Software Development Engineer in Test - Locomotion
+2024-11-20 04:10:22,241 - INFO - Successfully scraped 6 jobs from source
+2024-11-20 04:10:24,752 - INFO - Starting scraping from <lambda>
+2024-11-20 04:10:26,606 - ERROR - Error fetching https://boards-api.greenhouse.io/v1/boards/aurora/jobs: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/aurora/jobs
+2024-11-20 04:10:26,609 - INFO - Successfully scraped 0 jobs from source
+2024-11-20 04:10:31,509 - INFO - Starting scraping from <lambda>
+2024-11-20 04:10:44,393 - ERROR - Error fetching https://berkshiregrey.wd1.myworkdayjobs.com/en-US/External: HTTPSConnectionPool(host='berkshiregrey.wd1.myworkdayjobs.com', port=443): Max retries exceeded with url: /en-US/External (Caused by ResponseError('too many 500 error responses'))
+2024-11-20 04:10:44,395 - INFO - Successfully scraped 0 jobs from source
+2024-11-20 04:10:46,627 - INFO - Starting scraping from <lambda>
+2024-11-20 04:10:46,779 - ERROR - Error fetching https://boards-api.greenhouse.io/v1/boards/aethon/jobs: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/aethon/jobs
+2024-11-20 04:10:46,781 - INFO - Successfully scraped 0 jobs from source
+2024-11-20 04:10:49,712 - INFO - Starting scraping from <lambda>
+2024-11-20 04:10:50,003 - ERROR - download error: https://www.linkedin.com/jobs/view/robotics-software-engineer-navigation-at-diligent-robotics-4068285113?position=9&pageNum=0&refId=KKSfSyCQvGF%2FC9MyOsEygg%3D%3D&trackingId=MI2Iyb%2BDwyGasbIc%2FmQdfQ%3D%3D HTTPSConnectionPool(host='www.linkedin.com', port=443): Max retries exceeded with url: /jobs/view/robotics-software-engineer-navigation-at-diligent-robotics-4068285113?position=9&pageNum=0&refId=KKSfSyCQvGF%2FC9MyOsEygg%3D%3D&trackingId=MI2Iyb%2BDwyGasbIc%2FmQdfQ%3D%3D (Caused by ResponseError('too many 429 error responses'))
+2024-11-20 04:10:50,004 - INFO - Successfully scraped job: Robotics Software Engineer, Navigation
+2024-11-20 04:10:52,970 - ERROR - Error fetching https://api.lever.co/v0/postings/astrobotic: 404 Client Error: Not Found for url: https://api.lever.co/v0/postings/astrobotic
+2024-11-20 04:10:52,977 - INFO - Successfully scraped 0 jobs from source
+2024-11-20 04:10:56,528 - INFO - Starting scraping from <lambda>
+2024-11-20 04:10:58,793 - ERROR - Error fetching https://boards-api.greenhouse.io/v1/boards/beaconai/jobs: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/beaconai/jobs
+2024-11-20 04:10:58,797 - INFO - Successfully scraped 0 jobs from source
+2024-11-20 04:11:03,767 - INFO - Starting scraping from <lambda>
+2024-11-20 04:11:04,741 - ERROR - Error fetching https://boards-api.greenhouse.io/v1/boards/brightmachines/jobs: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/brightmachines/jobs
+2024-11-20 04:11:04,744 - INFO - Successfully scraped 0 jobs from source
+2024-11-20 04:11:07,426 - INFO - Starting scraping from <lambda>
+2024-11-20 04:11:10,768 - ERROR - Error fetching https://boards-api.greenhouse.io/v1/boards/dexterity/jobs: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/dexterity/jobs
+2024-11-20 04:11:10,770 - INFO - Successfully scraped 0 jobs from source
+2024-11-20 04:11:13,563 - INFO - Starting scraping from <lambda>
+2024-11-20 04:11:16,996 - ERROR - Error fetching https://api.lever.co/v0/postings/formant: 404 Client Error: Not Found for url: https://api.lever.co/v0/postings/formant
+2024-11-20 04:11:16,998 - INFO - Successfully scraped 0 jobs from source
+2024-11-20 04:11:20,025 - INFO - Starting scraping from <lambda>
+2024-11-20 04:11:20,221 - ERROR - download error: https://www.linkedin.com/jobs/view/robot-manipulation-engineer-at-figure-4059374649?position=10&pageNum=0&refId=KKSfSyCQvGF%2FC9MyOsEygg%3D%3D&trackingId=t2wHbQxQQ2nEhA1uVBRDJg%3D%3D HTTPSConnectionPool(host='www.linkedin.com', port=443): Max retries exceeded with url: /jobs/view/robot-manipulation-engineer-at-figure-4059374649?position=10&pageNum=0&refId=KKSfSyCQvGF%2FC9MyOsEygg%3D%3D&trackingId=t2wHbQxQQ2nEhA1uVBRDJg%3D%3D (Caused by ResponseError('too many 429 error responses'))
+2024-11-20 04:11:20,222 - INFO - Successfully scraped job: Robot Manipulation Engineer
+2024-11-20 04:11:20,223 - INFO - Successfully scraped 10 jobs from source
+2024-11-20 04:11:22,727 - INFO - Successfully scraped 0 jobs from source
+2024-11-20 04:11:23,931 - INFO - Starting scraping from <lambda>
+2024-11-20 04:11:25,223 - INFO - Starting scraping from <lambda>
+2024-11-20 04:11:28,881 - INFO - Successfully scraped Agility Robotics job: Buyer II
+2024-11-20 04:11:28,922 - INFO - Successfully scraped Agility Robotics job: Director of Systems Engineering, Integration and Test
+2024-11-20 04:11:28,965 - INFO - Successfully scraped Agility Robotics job: Robotics Software Engineer, Triage
+2024-11-20 04:11:29,007 - INFO - Successfully scraped Agility Robotics job: Senior Deployment Specialist 
+2024-11-20 04:11:29,054 - INFO - Successfully scraped Agility Robotics job: Senior QA Test Engineer, Robotics
+2024-11-20 04:11:29,115 - INFO - Successfully scraped Agility Robotics job: Senior Quality Control Inspector 
+2024-11-20 04:11:29,157 - INFO - Successfully scraped Agility Robotics job: Senior Software Engineer, Back-End
+2024-11-20 04:11:29,199 - INFO - Successfully scraped Agility Robotics job: Senior Staff AI Engineer
+2024-11-20 04:11:29,238 - INFO - Successfully scraped Agility Robotics job: Senior Staff Hardware Test Engineering Architect
+2024-11-20 04:11:29,280 - INFO - Successfully scraped Agility Robotics job: Senior Staff Mechanical Engineer
+2024-11-20 04:11:29,320 - INFO - Successfully scraped Agility Robotics job: Senior Staff Perception Engineer
+2024-11-20 04:11:29,360 - INFO - Successfully scraped Agility Robotics job: Senior Staff Product Compliance Engineer
+2024-11-20 04:11:29,400 - INFO - Successfully scraped Agility Robotics job: Senior Staff Test and Integration Engineer
+2024-11-20 04:11:29,439 - INFO - Successfully scraped Agility Robotics job: Staff Electrical Engineer
+2024-11-20 04:11:29,483 - INFO - Successfully scraped Agility Robotics job: Staff Full Stack Engineer, Front-End Applications
+2024-11-20 04:11:29,524 - INFO - Successfully scraped Agility Robotics job: Staff Manufacturing Engineer, Electrical
+2024-11-20 04:11:29,565 - INFO - Successfully scraped Agility Robotics job: Staff Product Manager
+2024-11-20 04:11:29,606 - INFO - Successfully scraped Agility Robotics job: Staff Robotics Software Engineer - Manipulation
+2024-11-20 04:11:29,647 - INFO - Successfully scraped Agility Robotics job: Staff Software Release Engineer
+2024-11-20 04:11:29,688 - INFO - Successfully scraped Agility Robotics job: Vice President of Software, Applications and Platform
+2024-11-20 04:11:29,691 - INFO - Successfully scraped 20 jobs from source
+2024-11-20 04:11:31,363 - INFO - Successfully scraped Outrider job: Autonomous Vehicle Safety Operator, CDL A (6 Month Term)
+2024-11-20 04:11:34,662 - INFO - Starting scraping from <lambda>
+2024-11-20 04:11:35,575 - INFO - Successfully scraped ANYbotics job: Head of Supply Chain
+2024-11-20 04:11:35,810 - INFO - Successfully scraped ANYbotics job: Senior AI Engineer - Locomotion
+2024-11-20 04:11:36,028 - INFO - Successfully scraped ANYbotics job: Senior Marketing Campaign Manager
+2024-11-20 04:11:36,151 - INFO - Successfully scraped ANYbotics job: Senior Sales Manager / Autonomous Robotics
+2024-11-20 04:11:36,275 - INFO - Successfully scraped ANYbotics job: Senior Software Development Engineer in Test
+2024-11-20 04:11:36,400 - INFO - Successfully scraped ANYbotics job: Software Development Engineer in Test - Locomotion
+2024-11-20 04:11:36,402 - INFO - Successfully scraped 6 jobs from source
+2024-11-20 04:11:40,191 - INFO - Starting scraping from <lambda>
+2024-11-20 04:11:40,752 - ERROR - Error fetching https://boards-api.greenhouse.io/v1/boards/aurora/jobs: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/aurora/jobs
+2024-11-20 04:11:40,755 - INFO - Successfully scraped 0 jobs from source
+2024-11-20 04:11:44,140 - INFO - Starting scraping from <lambda>
+2024-11-20 04:11:59,007 - ERROR - Error fetching https://berkshiregrey.wd1.myworkdayjobs.com/en-US/External: HTTPSConnectionPool(host='berkshiregrey.wd1.myworkdayjobs.com', port=443): Max retries exceeded with url: /en-US/External (Caused by ResponseError('too many 500 error responses'))
+2024-11-20 04:11:59,009 - INFO - Successfully scraped 0 jobs from source
+2024-11-20 04:12:01,394 - WARNING - Retrying (Retry(total=1, connect=0, read=None, redirect=2, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='job-boards.greenhouse.io', port=443): Read timed out. (read timeout=30)")': /outrider/jobs/4408685008
+2024-11-20 04:12:03,849 - INFO - Starting scraping from <lambda>
+2024-11-20 04:12:03,997 - ERROR - Error fetching https://boards-api.greenhouse.io/v1/boards/aethon/jobs: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/aethon/jobs
+2024-11-20 04:12:03,998 - INFO - Successfully scraped 0 jobs from source
+2024-11-20 04:12:08,951 - INFO - Starting scraping from <lambda>
+2024-11-20 04:12:14,229 - ERROR - Error fetching https://api.lever.co/v0/postings/astrobotic: 404 Client Error: Not Found for url: https://api.lever.co/v0/postings/astrobotic
+2024-11-20 04:12:14,230 - INFO - Successfully scraped 0 jobs from source
+2024-11-20 04:12:17,974 - INFO - Starting scraping from <lambda>
+2024-11-20 04:12:18,176 - ERROR - Error fetching https://boards-api.greenhouse.io/v1/boards/beaconai/jobs: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/beaconai/jobs
+2024-11-20 04:12:18,178 - INFO - Successfully scraped 0 jobs from source
+2024-11-20 04:12:20,585 - INFO - Starting scraping from <lambda>
+2024-11-20 04:12:24,081 - ERROR - Error fetching https://boards-api.greenhouse.io/v1/boards/brightmachines/jobs: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/brightmachines/jobs
+2024-11-20 04:12:24,085 - INFO - Successfully scraped 0 jobs from source
+2024-11-20 04:12:28,999 - INFO - Starting scraping from <lambda>
+2024-11-20 04:12:30,180 - ERROR - Error fetching https://boards-api.greenhouse.io/v1/boards/dexterity/jobs: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/dexterity/jobs
+2024-11-20 04:12:30,182 - INFO - Successfully scraped 0 jobs from source
+2024-11-20 04:12:30,695 - INFO - Successfully scraped Outrider job: Autonomous Vehicle Test Operator 
+2024-11-20 04:12:30,836 - INFO - Successfully scraped Outrider job: Manager System and Integration for Autonomy
+2024-11-20 04:12:30,988 - INFO - Successfully scraped Outrider job: Principal Engineer, Simulation
+2024-11-20 04:12:31,123 - INFO - Successfully scraped Outrider job: Principal Software Engineer, Motion Planning
+2024-11-20 04:12:31,244 - INFO - Successfully scraped Outrider job: Principal Software Engineer, Software Platform and Data
+2024-11-20 04:12:31,344 - INFO - Successfully scraped Outrider job: Principal Software Engineer, State Estimation
+2024-11-20 04:12:31,485 - INFO - Successfully scraped Outrider job: Principal Test Engineer, Vehicle
+2024-11-20 04:12:31,643 - INFO - Successfully scraped Outrider job: Senior Autonomous Vehicle Test Technician
+2024-11-20 04:12:32,653 - INFO - Starting scraping from <lambda>
+2024-11-20 04:12:35,827 - INFO - Successfully scraped Outrider job: Senior Engineer, Software Safety
+2024-11-20 04:12:36,323 - ERROR - Error fetching https://api.lever.co/v0/postings/formant: 404 Client Error: Not Found for url: https://api.lever.co/v0/postings/formant
+2024-11-20 04:12:36,329 - INFO - Successfully scraped 0 jobs from source
+2024-11-20 04:12:37,672 - INFO - Successfully scraped Outrider job: Senior Engineer, State Estimation
+2024-11-20 04:12:39,109 - INFO - Successfully scraped Outrider job: Senior Engineer, Systems & Integrations
+2024-11-20 04:12:39,313 - INFO - Successfully scraped Outrider job: Vice President of Sales
+2024-11-20 04:12:39,322 - INFO - Successfully scraped 13 jobs from source
+2024-11-20 04:12:40,608 - INFO - Starting scraping from <lambda>
+2024-11-20 04:12:42,001 - INFO - Starting scraping from <lambda>
+2024-11-20 04:12:42,115 - INFO - Successfully scraped 0 jobs from source
+2024-11-20 04:12:45,815 - INFO - Starting scraping from <lambda>
+2024-11-20 04:12:48,254 - INFO - Successfully scraped Outrider job: Autonomous Vehicle Safety Operator, CDL A (6 Month Term)
+2024-11-20 04:12:48,341 - ERROR - Error fetching https://api.lever.co/v0/postings/robustai: 404 Client Error: Not Found for url: https://api.lever.co/v0/postings/robustai
+2024-11-20 04:12:48,344 - INFO - Successfully scraped 0 jobs from source
+2024-11-20 04:12:48,398 - INFO - Successfully scraped Outrider job: Autonomous Vehicle Test Operator 
+2024-11-20 04:12:48,518 - INFO - Successfully scraped Outrider job: Manager System and Integration for Autonomy
+2024-11-20 04:12:48,628 - INFO - Successfully scraped Outrider job: Principal Engineer, Simulation
+2024-11-20 04:12:51,259 - INFO - Starting scraping from <lambda>
+2024-11-20 04:12:54,074 - ERROR - Error fetching https://boards-api.greenhouse.io/v1/boards/sanctuaryai/jobs: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/sanctuaryai/jobs
+2024-11-20 04:12:54,079 - INFO - Successfully scraped 0 jobs from source
+2024-11-20 04:12:57,172 - INFO - Starting scraping from <lambda>
+2024-11-20 04:12:57,348 - INFO - Successfully scraped Outrider job: Principal Software Engineer, Motion Planning
+2024-11-20 04:12:57,466 - INFO - Successfully scraped Outrider job: Principal Software Engineer, Software Platform and Data
+2024-11-20 04:13:00,276 - ERROR - Error fetching https://boards-api.greenhouse.io/v1/boards/seegrid/jobs: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/seegrid/jobs
+2024-11-20 04:13:00,279 - INFO - Successfully scraped 0 jobs from source
+2024-11-20 04:13:05,567 - INFO - Successfully inserted 39 jobs into database
+2024-11-20 04:13:11,166 - INFO - Successfully scraped Outrider job: Principal Software Engineer, State Estimation
+2024-11-20 04:13:11,275 - INFO - Successfully scraped Outrider job: Principal Test Engineer, Vehicle
+2024-11-20 04:13:11,391 - INFO - Successfully scraped Outrider job: Senior Autonomous Vehicle Test Technician
+2024-11-20 04:13:11,495 - INFO - Successfully scraped Outrider job: Senior Engineer, Software Safety
+2024-11-20 04:13:11,725 - INFO - Successfully scraped Outrider job: Senior Engineer, State Estimation
+2024-11-20 04:13:11,835 - INFO - Successfully scraped Outrider job: Senior Engineer, Systems & Integrations
+2024-11-20 04:13:11,968 - INFO - Successfully scraped Outrider job: Vice President of Sales
+2024-11-20 04:13:11,971 - INFO - Successfully scraped 13 jobs from source
+2024-11-20 04:13:15,647 - INFO - Starting scraping from <lambda>
+2024-11-20 04:13:15,970 - ERROR - Error fetching https://api.lever.co/v0/postings/robustai: 404 Client Error: Not Found for url: https://api.lever.co/v0/postings/robustai
+2024-11-20 04:13:15,972 - INFO - Successfully scraped 0 jobs from source
+2024-11-20 04:13:18,389 - INFO - Starting scraping from <lambda>
+2024-11-20 04:13:21,810 - ERROR - Error fetching https://boards-api.greenhouse.io/v1/boards/sanctuaryai/jobs: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/sanctuaryai/jobs
+2024-11-20 04:13:21,811 - INFO - Successfully scraped 0 jobs from source
+2024-11-20 04:13:24,411 - INFO - Starting scraping from <lambda>
+2024-11-20 04:13:27,775 - ERROR - Error fetching https://boards-api.greenhouse.io/v1/boards/seegrid/jobs: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/seegrid/jobs
+2024-11-20 04:13:27,777 - INFO - Successfully scraped 0 jobs from source
+2024-11-20 04:13:32,172 - INFO - Successfully inserted 49 jobs into database

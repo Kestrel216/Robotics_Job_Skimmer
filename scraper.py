@@ -166,16 +166,16 @@ def make_request(url, session=None, timeout=30):
 def extract_job_description(url, session=None):
     """Extract job description using trafilatura"""
     if cancel_scraping.is_set():
-        return None
+        return ''
         
     try:
         downloaded = trafilatura.fetch_url(url)
         if downloaded:
             text = trafilatura.extract(downloaded)
-            return utils.clean_job_description(text) if text else None
+            return utils.clean_job_description(text) if text else ''
     except Exception as e:
         logging.error(f"Error extracting content from {url}: {str(e)}")
-    return None
+    return ''
 
 def scrape_greenhouse_jobs(company_name, board_id):
     """Scrape jobs from Greenhouse job boards"""

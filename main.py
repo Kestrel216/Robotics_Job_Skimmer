@@ -29,7 +29,9 @@ def get_cached_jobs():
 
 def extract_experience_level(description):
     """Extract experience level from job description"""
-    description = description.lower()
+    if not description:
+        return 'Not Specified'
+    description = str(description).lower()
     if any(senior in description for senior in ['senior', 'sr.', 'lead', 'staff', 'principal']):
         return 'Senior'
     elif any(mid in description for mid in ['mid-level', 'mid level', '3+ years', '3-5 years']):
@@ -40,7 +42,7 @@ def extract_experience_level(description):
 
 def extract_job_type(title, description):
     """Extract job type from title and description"""
-    text = (title + ' ' + description).lower()
+    text = (title + ' ' + (description or '')).lower()
     if any(sw in text for sw in ['software', 'developer', 'python', 'java', 'programming']):
         return 'Software'
     elif any(hw in text for hw in ['hardware', 'electrical', 'electronics']):
@@ -53,7 +55,7 @@ def extract_job_type(title, description):
 
 def is_remote(location, description):
     """Check if job is remote"""
-    text = (location + ' ' + description).lower()
+    text = ((location or '') + ' ' + (description or '')).lower()
     return any(remote in text for remote in ['remote', 'work from home', 'wfh', 'virtual'])
 
 def cancel_scraping():
@@ -161,8 +163,8 @@ def main():
         
         if search_query:
             jobs_df = jobs_df[
-                jobs_df['title'].str.contains(search_query, case=False) |
-                jobs_df['description'].str.contains(search_query, case=False)
+                jobs_df['title'].str.contains(search_query, case=False, na=False) |
+                jobs_df['description'].str.contains(search_query, case=False, na=False)
             ]
         
         # Date filter
@@ -196,7 +198,7 @@ def main():
             if selected_location == "Remote":
                 jobs_df = jobs_df[jobs_df['is_remote']]
             else:
-                jobs_df = jobs_df[jobs_df['location'].str.contains(selected_location, case=False)]
+                jobs_df = jobs_df[jobs_df['location'].str.contains(selected_location, case=False, na=False)]
 
         # Display jobs count
         st.write(f"Found {len(jobs_df)} jobs")
