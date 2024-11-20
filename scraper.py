@@ -53,6 +53,61 @@ COMPANIES = {
         'url': 'https://www.berkshiregrey.com/careers',
         'platform': 'workday',
         'board_id': 'berkshiregrey'
+    },
+    'Aethon': {
+        'url': 'https://www.aethon.com/about/careers',
+        'platform': 'greenhouse',
+        'board_id': 'aethon'
+    },
+    'Astrobotic': {
+        'url': 'https://www.astrobotic.com/careers',
+        'platform': 'lever',
+        'board_id': 'astrobotic'
+    },
+    'Beacon AI': {
+        'url': 'https://www.beacon.ai/careers',
+        'platform': 'greenhouse',
+        'board_id': 'beaconai'
+    },
+    'Bright Machines': {
+        'url': 'https://www.brightmachines.com/careers',
+        'platform': 'greenhouse',
+        'board_id': 'brightmachines'
+    },
+    'Dexterity': {
+        'url': 'https://www.dexterity.ai/careers',
+        'platform': 'greenhouse',
+        'board_id': 'dexterity'
+    },
+    'Formant': {
+        'url': 'https://www.formant.io/careers',
+        'platform': 'lever',
+        'board_id': 'formant'
+    },
+    'Intrinsic': {
+        'url': 'https://www.intrinsic.ai/careers',
+        'platform': 'greenhouse',
+        'board_id': 'intrinsic'
+    },
+    'Outrider': {
+        'url': 'https://www.outrider.ai/careers',
+        'platform': 'greenhouse',
+        'board_id': 'outrider'
+    },
+    'Robust AI': {
+        'url': 'https://www.robust.ai/careers',
+        'platform': 'lever',
+        'board_id': 'robustai'
+    },
+    'Sanctuary AI': {
+        'url': 'https://www.sanctuary.ai/careers',
+        'platform': 'greenhouse',
+        'board_id': 'sanctuaryai'
+    },
+    'Seegrid': {
+        'url': 'https://www.seegrid.com/careers',
+        'platform': 'greenhouse',
+        'board_id': 'seegrid'
     }
 }
 

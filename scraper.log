@@ -107,3 +107,8 @@
 2024-11-20 04:03:08,171 - ERROR - Error fetching https://berkshiregrey.wd1.myworkdayjobs.com/en-US/External: HTTPSConnectionPool(host='berkshiregrey.wd1.myworkdayjobs.com', port=443): Max retries exceeded with url: /en-US/External (Caused by ResponseError('too many 500 error responses'))
 2024-11-20 04:03:08,173 - INFO - Successfully scraped 0 jobs from source
 2024-11-20 04:03:13,516 - INFO - Successfully inserted 26 jobs into database
+2024-11-20 04:05:38,507 - INFO - Starting scraping from scrape_boston_dynamics
+2024-11-20 04:05:38,775 - INFO - Successfully scraped 0 jobs from source
+2024-11-20 04:05:43,045 - INFO - Starting scraping from scrape_linkedin_robotics
+2024-11-20 04:06:16,161 - ERROR - download error: https://www.linkedin.com/jobs/view/robotics-engineer-all-levels-at-chef-robotics-3829633461?position=1&pageNum=0&refId=WOz%2FORfoXV53zo179qtpSQ%3D%3D&trackingId=pe2LSf9OnjKIrNLQZ3NUYQ%3D%3D HTTPSConnectionPool(host='www.linkedin.com', port=443): Max retries exceeded with url: /jobs/view/robotics-engineer-all-levels-at-chef-robotics-3829633461?position=1&pageNum=0&refId=WOz%2FORfoXV53zo179qtpSQ%3D%3D&trackingId=pe2LSf9OnjKIrNLQZ3NUYQ%3D%3D (Caused by ResponseError('too many 429 error responses'))
+2024-11-20 04:06:16,162 - INFO - Successfully scraped job: Robotics Engineer (all levels)
