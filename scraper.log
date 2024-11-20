@@ -34,3 +34,34 @@
 2024-11-20 03:55:35,427 - INFO - Successfully scraped job: Machine Learning Engineer, Robot Learning
 2024-11-20 03:55:43,000 - ERROR - download error: https://www.linkedin.com/jobs/view/robotics-engineer-at-aisin-north-carolina-corporation-4079837491?position=4&pageNum=0&refId=tROhJOz1LfHCisIiuKODmg%3D%3D&trackingId=5LcknTdR226gTYP8EDHGjA%3D%3D HTTPSConnectionPool(host='www.linkedin.com', port=443): Max retries exceeded with url: /jobs/view/robotics-engineer-at-aisin-north-carolina-corporation-4079837491?position=4&pageNum=0&refId=tROhJOz1LfHCisIiuKODmg%3D%3D&trackingId=5LcknTdR226gTYP8EDHGjA%3D%3D (Caused by ResponseError('too many 429 error responses'))
 2024-11-20 03:55:43,001 - INFO - Successfully scraped job: Robotics Engineer
+2024-11-20 03:57:10,896 - INFO - Starting scraping from scrape_boston_dynamics
+2024-11-20 03:57:11,272 - INFO - Successfully scraped 0 jobs from scrape_boston_dynamics
+2024-11-20 03:57:13,326 - INFO - Starting scraping from scrape_linkedin_robotics
+2024-11-20 03:57:29,260 - ERROR - Error fetching https://www.linkedin.com/jobs/search?keywords=robotics&location=United%20States: HTTPSConnectionPool(host='www.linkedin.com', port=443): Max retries exceeded with url: /jobs/search?keywords=robotics&location=United%20States (Caused by ResponseError('too many 429 error responses'))
+2024-11-20 03:57:29,264 - INFO - Successfully scraped 0 jobs from scrape_linkedin_robotics
+2024-11-20 03:57:34,007 - WARNING - No jobs were scraped from any source
+2024-11-20 03:57:38,751 - INFO - Starting scraping from scrape_boston_dynamics
+2024-11-20 03:57:39,076 - INFO - Successfully scraped 0 jobs from scrape_boston_dynamics
+2024-11-20 03:57:41,359 - INFO - Starting scraping from scrape_linkedin_robotics
+2024-11-20 03:57:58,039 - ERROR - Error extracting content from https://www.linkedin.com/jobs/view/robotics-engineer-all-levels-at-chef-robotics-3829633461?position=1&pageNum=0&refId=tjkCLfmiPrCFtfBn4g1EgA%3D%3D&trackingId=%2BpDbrjQxyymTub2%2BwZv%2BdA%3D%3D: fetch_url() got an unexpected keyword argument 'timeout'
+2024-11-20 03:57:58,040 - INFO - Successfully scraped job: Robotics Engineer (all levels)
+2024-11-20 03:57:58,041 - ERROR - Error extracting content from https://www.linkedin.com/jobs/view/roboticist-at-technacity-group-4037941810?position=2&pageNum=0&refId=tjkCLfmiPrCFtfBn4g1EgA%3D%3D&trackingId=JSWFMC9bF9TTXf%2F9tfrF2A%3D%3D: fetch_url() got an unexpected keyword argument 'timeout'
+2024-11-20 03:57:58,041 - INFO - Successfully scraped job: Roboticist
+2024-11-20 03:57:58,042 - ERROR - Error extracting content from https://www.linkedin.com/jobs/view/robotics-engineer-intern-at-ricoh-colombia-4077389482?position=3&pageNum=0&refId=tjkCLfmiPrCFtfBn4g1EgA%3D%3D&trackingId=rH8PrPsrMg6o9a7KxVyXWQ%3D%3D: fetch_url() got an unexpected keyword argument 'timeout'
+2024-11-20 03:57:58,043 - INFO - Successfully scraped job: Robotics Engineer Intern
+2024-11-20 03:57:58,043 - ERROR - Error extracting content from https://www.linkedin.com/jobs/view/robotics-engineer-at-aisin-north-carolina-corporation-4079837491?position=4&pageNum=0&refId=tjkCLfmiPrCFtfBn4g1EgA%3D%3D&trackingId=LheBj9xIPfAup69Z7iHxZA%3D%3D: fetch_url() got an unexpected keyword argument 'timeout'
+2024-11-20 03:57:58,044 - INFO - Successfully scraped job: Robotics Engineer
+2024-11-20 03:57:58,044 - ERROR - Error extracting content from https://www.linkedin.com/jobs/view/machine-learning-engineer-robot-learning-at-path-robotics-4065645547?position=5&pageNum=0&refId=tjkCLfmiPrCFtfBn4g1EgA%3D%3D&trackingId=LL%2BEO8DOvaCvbVTtomENgQ%3D%3D: fetch_url() got an unexpected keyword argument 'timeout'
+2024-11-20 03:57:58,045 - INFO - Successfully scraped job: Machine Learning Engineer, Robot Learning
+2024-11-20 03:57:58,045 - ERROR - Error extracting content from https://www.linkedin.com/jobs/view/mechanical-engineer-underwater-robotics-at-fleet-robotics-4058520172?position=6&pageNum=0&refId=tjkCLfmiPrCFtfBn4g1EgA%3D%3D&trackingId=MEZKJ3mzT6fmrGbz%2BzYesA%3D%3D: fetch_url() got an unexpected keyword argument 'timeout'
+2024-11-20 03:57:58,045 - INFO - Successfully scraped job: Mechanical Engineer: Underwater Robotics
+2024-11-20 03:57:58,045 - ERROR - Error extracting content from https://www.linkedin.com/jobs/view/robotics-engineer-at-built-robotics-4051510223?position=7&pageNum=0&refId=tjkCLfmiPrCFtfBn4g1EgA%3D%3D&trackingId=2FIvlpWxOymTu1gNpSXSsA%3D%3D: fetch_url() got an unexpected keyword argument 'timeout'
+2024-11-20 03:57:58,046 - INFO - Successfully scraped job: Robotics Engineer
+2024-11-20 03:57:58,046 - ERROR - Error extracting content from https://www.linkedin.com/jobs/view/robotics-software-engineer-navigation-at-diligent-robotics-4068285113?position=8&pageNum=0&refId=tjkCLfmiPrCFtfBn4g1EgA%3D%3D&trackingId=aM8aASkTUHZUjse%2Fk%2FdHqA%3D%3D: fetch_url() got an unexpected keyword argument 'timeout'
+2024-11-20 03:57:58,047 - INFO - Successfully scraped job: Robotics Software Engineer, Navigation
+2024-11-20 03:57:58,047 - ERROR - Error extracting content from https://www.linkedin.com/jobs/view/robot-manipulation-engineer-at-figure-4059374649?position=9&pageNum=0&refId=tjkCLfmiPrCFtfBn4g1EgA%3D%3D&trackingId=UoRJ8m2G%2B%2BBNqpuNTE40kQ%3D%3D: fetch_url() got an unexpected keyword argument 'timeout'
+2024-11-20 03:57:58,047 - INFO - Successfully scraped job: Robot Manipulation Engineer
+2024-11-20 03:57:58,047 - ERROR - Error extracting content from https://www.linkedin.com/jobs/view/robotics-engineer-at-acs-consultancy-services-inc-4018504038?position=10&pageNum=0&refId=tjkCLfmiPrCFtfBn4g1EgA%3D%3D&trackingId=1c2oOnJQrVvj3wLFlSwPJw%3D%3D: fetch_url() got an unexpected keyword argument 'timeout'
+2024-11-20 03:57:58,048 - INFO - Successfully scraped job: Robotics Engineer
+2024-11-20 03:57:58,050 - INFO - Successfully scraped 10 jobs from scrape_linkedin_robotics
+2024-11-20 03:58:01,544 - INFO - Successfully inserted 10 jobs into database
