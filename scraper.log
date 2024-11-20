@@ -65,3 +65,45 @@
 2024-11-20 03:57:58,048 - INFO - Successfully scraped job: Robotics Engineer
 2024-11-20 03:57:58,050 - INFO - Successfully scraped 10 jobs from scrape_linkedin_robotics
 2024-11-20 03:58:01,544 - INFO - Successfully inserted 10 jobs into database
+2024-11-20 04:02:12,705 - INFO - Starting scraping from scrape_boston_dynamics
+2024-11-20 04:02:13,051 - INFO - Successfully scraped 0 jobs from source
+2024-11-20 04:02:17,794 - INFO - Starting scraping from scrape_linkedin_robotics
+2024-11-20 04:02:31,049 - ERROR - Error fetching https://www.linkedin.com/jobs/search?keywords=robotics&location=United%20States: HTTPSConnectionPool(host='www.linkedin.com', port=443): Max retries exceeded with url: /jobs/search?keywords=robotics&location=United%20States (Caused by ResponseError('too many 429 error responses'))
+2024-11-20 04:02:31,051 - INFO - Successfully scraped 0 jobs from source
+2024-11-20 04:02:35,534 - INFO - Starting scraping from <lambda>
+2024-11-20 04:02:36,016 - INFO - Successfully scraped Agility Robotics job: Buyer II
+2024-11-20 04:02:36,060 - INFO - Successfully scraped Agility Robotics job: Director of Systems Engineering, Integration and Test
+2024-11-20 04:02:36,119 - INFO - Successfully scraped Agility Robotics job: Robotics Software Engineer, Triage
+2024-11-20 04:02:36,164 - INFO - Successfully scraped Agility Robotics job: Senior Deployment Specialist 
+2024-11-20 04:02:36,207 - INFO - Successfully scraped Agility Robotics job: Senior QA Test Engineer, Robotics
+2024-11-20 04:02:36,249 - INFO - Successfully scraped Agility Robotics job: Senior Quality Control Inspector 
+2024-11-20 04:02:36,292 - INFO - Successfully scraped Agility Robotics job: Senior Software Engineer, Back-End
+2024-11-20 04:02:36,336 - INFO - Successfully scraped Agility Robotics job: Senior Staff AI Engineer
+2024-11-20 04:02:36,379 - INFO - Successfully scraped Agility Robotics job: Senior Staff Hardware Test Engineering Architect
+2024-11-20 04:02:36,421 - INFO - Successfully scraped Agility Robotics job: Senior Staff Mechanical Engineer
+2024-11-20 04:02:36,463 - INFO - Successfully scraped Agility Robotics job: Senior Staff Perception Engineer
+2024-11-20 04:02:36,505 - INFO - Successfully scraped Agility Robotics job: Senior Staff Product Compliance Engineer
+2024-11-20 04:02:36,555 - INFO - Successfully scraped Agility Robotics job: Senior Staff Test and Integration Engineer
+2024-11-20 04:02:36,598 - INFO - Successfully scraped Agility Robotics job: Staff Electrical Engineer
+2024-11-20 04:02:36,640 - INFO - Successfully scraped Agility Robotics job: Staff Full Stack Engineer, Front-End Applications
+2024-11-20 04:02:36,681 - INFO - Successfully scraped Agility Robotics job: Staff Manufacturing Engineer, Electrical
+2024-11-20 04:02:36,724 - INFO - Successfully scraped Agility Robotics job: Staff Product Manager
+2024-11-20 04:02:36,766 - INFO - Successfully scraped Agility Robotics job: Staff Robotics Software Engineer - Manipulation
+2024-11-20 04:02:36,809 - INFO - Successfully scraped Agility Robotics job: Staff Software Release Engineer
+2024-11-20 04:02:36,855 - INFO - Successfully scraped Agility Robotics job: Vice President of Software, Applications and Platform
+2024-11-20 04:02:36,857 - INFO - Successfully scraped 20 jobs from source
+2024-11-20 04:02:39,144 - INFO - Starting scraping from <lambda>
+2024-11-20 04:02:43,335 - INFO - Successfully scraped ANYbotics job: Head of Supply Chain
+2024-11-20 04:02:43,543 - INFO - Successfully scraped ANYbotics job: Senior AI Engineer - Locomotion
+2024-11-20 04:02:43,699 - INFO - Successfully scraped ANYbotics job: Senior Marketing Campaign Manager
+2024-11-20 04:02:43,839 - INFO - Successfully scraped ANYbotics job: Senior Sales Manager / Autonomous Robotics
+2024-11-20 04:02:45,228 - INFO - Successfully scraped ANYbotics job: Senior Software Development Engineer in Test
+2024-11-20 04:02:45,604 - INFO - Successfully scraped ANYbotics job: Software Development Engineer in Test - Locomotion
+2024-11-20 04:02:45,606 - INFO - Successfully scraped 6 jobs from source
+2024-11-20 04:02:49,566 - INFO - Starting scraping from <lambda>
+2024-11-20 04:02:49,660 - ERROR - Error fetching https://boards-api.greenhouse.io/v1/boards/aurora/jobs: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/aurora/jobs
+2024-11-20 04:02:49,663 - INFO - Successfully scraped 0 jobs from source
+2024-11-20 04:02:53,216 - INFO - Starting scraping from <lambda>
+2024-11-20 04:03:08,171 - ERROR - Error fetching https://berkshiregrey.wd1.myworkdayjobs.com/en-US/External: HTTPSConnectionPool(host='berkshiregrey.wd1.myworkdayjobs.com', port=443): Max retries exceeded with url: /en-US/External (Caused by ResponseError('too many 500 error responses'))
+2024-11-20 04:03:08,173 - INFO - Successfully scraped 0 jobs from source
+2024-11-20 04:03:13,516 - INFO - Successfully inserted 26 jobs into database
